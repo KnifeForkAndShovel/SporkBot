@@ -43,7 +43,7 @@ async def on_message(message):
         quote="""SporkBot. A fair and unbiased random outcome generator. Honestly.
 SporkBot help: display this message.
 SporkBot shuffle <item 1> <item 2> ... <item n>: return items in random order.
-SporkBot choose <item 1> <item 2> ... <item n>: chose one of the items randomly.
+SporkBot choose <item 1> <item 2> ... <item n>: choose one of the items randomly.
 SporkBot runcible cannon: DO NOT USE THIS OPTION UNDER ANY CIRCUMSTANCES!"""
     elif message.content.lower().startswith('sporkbot runcible cannon'):
         quote="Bombardment ordered. Enter command password to cancel."

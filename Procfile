@@ -1,1 +1,1 @@
-worker: python sporkbot.py
+worker: python SporkBot/sporkbot.py

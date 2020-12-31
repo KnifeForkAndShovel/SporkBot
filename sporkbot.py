@@ -3,12 +3,14 @@
 import discord
 import random
 import time
+import os
 
 random.seed(time.ctime)
 client = discord.Client()
 
 
-secret_key="stuff"
+secret_key=os.environ.get('BOT_TOKEN')
+
 @client.event
 async def on_ready():
   print('We have logged in as {0.user}'.format(client))

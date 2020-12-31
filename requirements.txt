@@ -1,4 +1,1 @@
 discord.py
-random
-time
-os
